@@ -1,0 +1,41 @@
+h1, p {
+  font-family: Lato;
+}
+
+
+.containerApp{
+background-color: rgb(200, 227, 243)
+}
+
+.ReactTable {  
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 95-vh; 
+    border-collapse:collapse;
+     border-spacing: 0; 
+}
+
+.rt-thead .rt-th .rt-td {  
+    border: 1px solid transparent; /* No more visible border */
+    height: 30px; 
+    transition: all 0.3s;  /* Simple transition for hover effect */
+}
+
+.rt-thead .rt-th {  
+  background: #6c7ae0; 
+    font-weight: bold;
+}
+
+ .rt-td {  
+    background:  plum;
+    text-align: center;
+}
+
+/* Cells in even rows (2,4,6...) are one color */        
+ .rt-tr:nth-child(even) .rt-td { background: #F1F1F1; }   
+
+/* Cells in odd rows (1,3,5...) are another (excludes header cells)  */        
+ .rt-tr:nth-child(odd)  .rt- { background: rgb(243, 147, 147); }  
+
+ .rt-tr,  .rt-td:hover { background: #666; color: #FFF; }  
+/* Hover cell effect! */
